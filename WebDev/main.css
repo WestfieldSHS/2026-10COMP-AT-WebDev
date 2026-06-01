@@ -2,13 +2,16 @@
 
 h1 {
     font-size: 100px;
+    text-align: center;
 }
 h2 {
     font-size: 50px;
+    text-align: center;
 }
 .startimg {
     width: auto;
     padding: 90px;
-    display: inline-block;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
