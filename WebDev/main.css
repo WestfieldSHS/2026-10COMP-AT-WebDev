@@ -20,6 +20,8 @@ h2 {
     background-color: blanchedalmond;
     font-size: 50px;
     font-style: none;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
 }
 .kitty {
     background-color: blanchedalmond;
@@ -32,4 +34,8 @@ h2 {
 }
 .links {
     background-color: blanchedalmond;
+}
+p {
+    font-size: 30px;
+    text-align: center;
 }
