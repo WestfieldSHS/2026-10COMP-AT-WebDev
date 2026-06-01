@@ -6,3 +6,9 @@ h1 {
 h2 {
     font-size: 50px;
 }
+.startimg {
+    width: auto;
+    padding: 90px;
+    display: inline-block;
+    text-align: center;
+}
