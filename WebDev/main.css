@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Sigmar+One');
 @import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King');
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans');
-
+@import url('https://fonts.googleapis.com/css2?family=Single+Day');
+body {
+    background-color: rgb(253, 231, 213);
+}
 h1 {
     font-size: 100px;
     text-align: center;
@@ -13,11 +16,13 @@ h2 {
 }
 .startimg {
     width: auto;
-    padding: 90px;
+    padding: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
     border: 5px solid gray;
+    padding: auto;
 }
 .link {
     font-size: 50px;
@@ -28,20 +33,27 @@ h2 {
 .kitty {
     font-size: 50px;
     font-style: none;
-    background-color: blanchedalmond;
+    background-color: rgb(253, 231, 213);
 }
 .kitty:hover {
     font-size: 50px;
     font-family: 'Sigmar One';
 }
 .links {
-    background-color: blanchedalmond;
+    background-color: rgb(253, 231, 213);
     margin-bottom: auto;
     font-size: 50px;
+    font-family: 'Single Day';
+    border-bottom: 5px solid gray;
+    text-decoration: none;
+    color: black;
 }
 p {
     font-size: 30px;
     text-align: left;
     font-family: 'Loved by the King';
     margin-left: 50px;
+}
+.background {
+    background-color: rgb(253, 231, 213);
 }
