@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Sigmar+One');
 @import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans');
 
 h1 {
     font-size: 100px;
@@ -8,6 +9,7 @@ h1 {
 h2 {
     font-size: 50px;
     text-align: center;
+    font-family: 'Bubblegum Sans';
 }
 .startimg {
     width: auto;
@@ -36,6 +38,7 @@ h2 {
     background-color: blanchedalmond;
     margin-bottom: auto;
     font-size: 50px;
+    line-height: 0.5;
 }
 p {
     font-size: 30px;
