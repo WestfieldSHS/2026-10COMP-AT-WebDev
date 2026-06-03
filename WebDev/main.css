@@ -39,6 +39,7 @@ h2 {
 }
 p {
     font-size: 30px;
-    text-align: center;
+    text-align: left;
     font-family: 'Loved by the King';
+    margin-left: 50px;
 }
