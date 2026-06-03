@@ -26,6 +26,7 @@ h2 {
 .kitty {
     font-size: 50px;
     font-style: none;
+    background-color: blanchedalmond;
 }
 .kitty:hover {
     font-size: 50px;
