@@ -31,6 +31,7 @@ h2 {
     text-align: center;
     padding: 10px 30px 10px 30px;
     text-decoration: none;
+    color: black;
 }
 .kitty {
     font-size: 50px;
@@ -53,6 +54,7 @@ h2 {
     border-bottom: 5px solid gray;
     text-decoration: none;
     color: black;
+    padding: 10px 30px 10px 30px;
 }
 p {
     font-size: 30px;
