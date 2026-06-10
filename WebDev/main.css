@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King');
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Single+Day');
+@import url('https://fonts.googleapis.com/css2?family=Knewave');
 
 body {
     background-color: rgb(253, 231, 213);
@@ -67,4 +68,8 @@ p {
 }
 .kittyuh {
     width: 20%;
+}
+br {
+    font-family: 'Knewave';
+    font-size: 50px;
 }
