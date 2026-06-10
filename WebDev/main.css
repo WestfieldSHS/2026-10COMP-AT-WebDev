@@ -7,15 +7,18 @@
 body {
     background-color: rgb(253, 231, 213);
 }
+
 h1 {
     font-size: 100px;
     text-align: center;
 }
+
 h2 {
     font-size: 50px;
     text-align: center;
     font-family: 'Bubblegum Sans';
 }
+
 .startimg {
     width: auto;
     padding: auto;
@@ -26,6 +29,7 @@ h2 {
     border: 5px solid gray;
     padding: auto;
 }
+
 .link {
     font-size: 50px;
     font-style: none;
@@ -34,6 +38,7 @@ h2 {
     text-decoration: none;
     color: black;
 }
+
 .kitty {
     font-size: 50px;
     font-style: none;
@@ -41,12 +46,14 @@ h2 {
     text-decoration: none;
     color: black;
 }
+
 .kitty:hover {
     font-size: 50px;
     font-family: 'Sigmar One';
     text-decoration: none;
     color: black;
 }
+
 .links {
     background-color: rgb(253, 231, 213);
     margin-bottom: auto;
@@ -57,18 +64,22 @@ h2 {
     color: black;
     padding: 10px 30px 10px 30px;
 }
+
 p {
     font-size: 30px;
     text-align: left;
     font-family: 'Loved by the King';
     margin-left: 50px;
 }
+
 .background {
     background-color: rgb(253, 231, 213);
 }
+
 .kittyuh {
     width: 20%;
 }
+
 .ghosttitles {
     font-family: 'Mouse Memoirs';
     font-size: 50px;
