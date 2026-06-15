@@ -3,16 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Single+Day');
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint');
 
 body {
     background-color: rgb(253, 231, 213);
 }
+
 .ghostsinfo{
     background-color: rgb(253, 231, 213);
 }
+
 h1 {
     font-size: 100px;
     text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Rubik Spray Paint';
 }
 
 h3 {
