@@ -7,7 +7,9 @@
 body {
     background-color: rgb(253, 231, 213);
 }
-
+.ghostsinfo{
+    background-color: rgb(253, 231, 213);
+}
 h1 {
     font-size: 100px;
     text-align: center;
