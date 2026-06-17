@@ -96,6 +96,11 @@ p {
     font-size: 50px;
 }
 
-.aswangimg {
+.ghostimages {
     border-radius: 10px;
+    display: inline-block;
+}
+.colummn {
+    display: inline-block;
+    width: 70%;
 }
