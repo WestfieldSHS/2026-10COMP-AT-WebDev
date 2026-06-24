@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Single+Day');
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs');
 @import url('https://fonts.googleapis.com/css2?family=Salsa');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy');
+@import url('https://fonts.googleapis.com/css2?family=Chicle');
 
 body {
     background-color: rgb(253, 231, 213);
@@ -11,6 +15,22 @@ body {
 
 .ghostsinfo{
     background-color: rgb(253, 231, 213);
+}
+
+.f1:hover {
+    font-family: 'Indie Flower';
+}
+
+.f2:hover {
+    font-family: 'DynaPuff';
+}
+
+.f3:hover {
+    font-family: 'Sour Gummy';
+}
+
+.f4:hover {
+    font-family: 'Chicle';
 }
 
 h1 {
@@ -104,17 +124,30 @@ p {
     margin-right: 100px;
     float: left;
 }
+
 .colummn {
     float: right;
     width: 40%;
     padding: 10px;
     text-align: center;
 }
+
 .card {
     background-color: rgb(253, 231, 213);
     padding: 20px;
     margin-top: 20px;
 }
+
 .ghostbox {
     padding: 20px;
+}
+
+.now {
+    background-color: rgb(252, 213, 182);
+}
+
+.ghostgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
 }
