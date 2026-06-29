@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff');
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy');
 @import url('https://fonts.googleapis.com/css2?family=Chicle');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy');
 
 body {
     background-color: rgb(253, 231, 213);
@@ -31,6 +32,10 @@ body {
 
 .f4:hover {
     font-family: 'Chicle';
+}
+
+.f5:hover {
+    font-family: 'Sigmar One';
 }
 
 h1 {
@@ -66,21 +71,6 @@ h3 {
     font-style: none;
     text-align: center;
     padding: 10px 30px 10px 30px;
-    text-decoration: none;
-    color: black;
-}
-
-.kitty {
-    font-size: 50px;
-    font-style: none;
-    background-color: rgb(253, 231, 213);
-    text-decoration: none;
-    color: black;
-}
-
-.kitty:hover {
-    font-size: 50px;
-    font-family: 'Sigmar One';
     text-decoration: none;
     color: black;
 }
@@ -150,4 +140,38 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(252, 213, 182);
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.biter {
+    display: inline-block;
+    width: 12%
+}
+
+.smacker {
+    display: inline-block;
+    width: 60%
+}
+
+.dastupids {
+    display: inline-block;
+    width: 27%
+}
+
+.foot {
+    background-color: rgb(252, 213, 182);
+    font-size: 30px;
+}
+
+.foot:hover {
+    font-family: 'Loved By The King';
 }
