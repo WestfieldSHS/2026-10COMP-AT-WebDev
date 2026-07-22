@@ -179,3 +179,14 @@ p {
 .biterimg {
     margin-top: 50px;
 }
+.potato {
+    width: 10%;
+}
+
+.highlight {
+    background-color: rgb(248, 215, 67);
+}
+
+.highlight2 {
+    background-color: rgb(238, 109, 109);
+}
