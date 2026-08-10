@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy');
 @import url('https://fonts.googleapis.com/css2?family=Chicle');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 body {
     background-color: rgb(253, 231, 213);
@@ -25,18 +26,22 @@ body {
 
 .f2:hover {
     font-family: 'DynaPuff';
+    font-size: 35px;
 }
 
 .f3:hover {
     font-family: 'Sour Gummy';
+    font-size: 35px;
 }
 
 .f4:hover {
     font-family: 'Chicle';
+    font-size: 35px;
 }
 
 .f5:hover {
-    font-family: 'Sigmar One';
+    font-family: 'Roboto';
+    font-size: 305px;
 }
 
 h1 {
@@ -74,6 +79,7 @@ h3 {
     padding: 10px 30px 10px 30px;
     text-decoration: none;
     color: black;
+    text-anchor: middle;
 }
 
 .links {
@@ -112,11 +118,10 @@ p {
 
 .ghostimages {
     border-radius: 10px;
-    width: 150px;
-    height: auto;
+    width: 170px;
+    height: 400px;
     margin-right: 5px;
     float: left;
-    margin-left: 20px;
 }
 
 .colummn {
@@ -200,4 +205,18 @@ p {
 
 .footerfont {
     font-family: 'Bubblegum Sans';
+}
+
+.logoimg {
+    width: 50px;
+    vertical-align: bottom;
+}
+
+.smaller {
+    font-size: 22px;
+}
+
+html {
+    margin-left: 50px;
+    margin-right: 50px;
 }
