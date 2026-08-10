@@ -41,7 +41,7 @@ body {
 
 .f5:hover {
     font-family: 'Roboto';
-    font-size: 305px;
+    font-size: 35px;
 }
 
 h1 {
@@ -213,7 +213,7 @@ p {
 }
 
 .smaller {
-    font-size: 22px;
+    font-size: 21px;
 }
 
 html {
