@@ -12,6 +12,31 @@
             <a href="kitty.html" class="link kitty f5">Kitty.</a>
         </div>
         <h3>Map Tips</h3>
+        <div class="map-buttons">
+            <button onclick="showMap('juniper')">Juniper Road</button>
+            <button onclick="showMap('bodega')">The Bodega</button>
+        </div>
+        <div class="map-info-box">
+            <div id="juniper" class="map-text">
+                <h4>Juniper Road (Small Map)</h4>
+                <p>Tip: Hide in bedroom closets when the ghost hunts. The fuse box is usually in the pantry room.</p>
+            </div>
+            <div id="bodega" class="map-text" style="display: none;">
+                <h4>The Bodega (Small Map)</h4>
+                <!-- <img class='potato'src="images/grey.jpg" alt="EMF reader"> -->
+                <p>Tip: Watch out for narrow aisles. It is very easy to get trapped by the ghost here.</p>
+            </div>
+        </div>
+        <script>
+        function showMap(mapName) {
+            // Hide both boxes first
+            document.getElementById('juniper').style.display = 'none';
+            document.getElementById('bodega').style.display = 'none';
+            
+            // Show only the one that was clicked
+            document.getElementById(mapName).style.display = 'block';
+        }
+        </script><br>
 
         <div class="footer">
           <div class="biter">
