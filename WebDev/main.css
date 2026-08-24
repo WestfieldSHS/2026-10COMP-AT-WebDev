@@ -334,3 +334,45 @@ h4 {
 .other {
     text-align: center;
 }
+
+.button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.map-btn {
+    background-color: rgb(253, 231, 213);
+    border: 2px solid black;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.map-btn:hover {
+    background-color: #ffe6d5;
+}
+
+.tips-display-box {
+    background-color: rgb(253, 231, 213);
+    border: 3px solid black;
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 6px;
+    min-height: 120px;
+}
+
+.map-card {
+    display: grid;
+    padding: 100px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.column3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

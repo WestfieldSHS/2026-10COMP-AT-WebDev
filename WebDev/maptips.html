@@ -12,31 +12,115 @@
             <a href="kitty.html" class="link kitty f5">Kitty.</a>
         </div>
         <h3>Map Tips</h3>
-        <div class="map-buttons">
-            <button onclick="showMap('juniper')">Juniper Road</button>
-            <button onclick="showMap('bodega')">The Bodega</button>
+        
+            <div class="button-grid">
+            <button class="map-btn" onclick="openMap('juniper')">Juniper Road</button>
+            <button class="map-btn" onclick="openMap('fenway')">Fenway Drive</button>
+            <button class="map-btn" onclick="openMap('lincoln')">Lincoln Street</button>
+            <button class="map-btn" onclick="openMap('bodega')">The Bodega</button>
+            <button class="map-btn" onclick="openMap('lilim')">Lilim Lane</button>
+            <button class="map-btn" onclick="openMap('cafe')">The Café</button>
+            <button class="map-btn" onclick="openMap('bridgewood')">Bridgewood Drive</button>
+            <button class="map-btn" onclick="openMap('oakbridge')">Oak Bridge</button>
+            <button class="map-btn" onclick="openMap('school')">The School</button>
+            <button class="map-btn" onclick="openMap('asylum')">The Asylum</button>
+            <button class="map-btn" onclick="openMap('prison')">The Prison</button>
         </div>
-        <div class="map-info-box">
-            <div id="juniper" class="map-text">
-                <h4>Juniper Road (Small Map)</h4>
-                <p>Tip: Hide in bedroom closets when the ghost hunts. The fuse box is usually in the pantry room.</p>
+        <div class="tips-display-box">
+            <div id="default-msg" class="map-card" style="display: block;">
+                <h3>Select a Location</h3>
+                <p>Click on any job site button above to view critical hiding spots and fuse box strategies.</p>
             </div>
-            <div id="bodega" class="map-text" style="display: none;">
-                <h4>The Bodega (Small Map)</h4>
-                <!-- <img class='potato'src="images/grey.jpg" alt="EMF reader"> -->
-                <p>Tip: Watch out for narrow aisles. It is very easy to get trapped by the ghost here.</p>
+
+            <!-- 1. JUNIPER ROAD -->
+            <div id="juniper" class="map-card">
+                <div class="spacing column3">
+                <div><img class='mapimgs'src="images/JuniperRoad.jpg" alt="JuniperRoad"></div>
+                <h3>Juniper Road (Small)</h3>
+                <p><strong>Fuse Box:</strong> Always inside the Kitchen Pantry.</p>
+                <p><strong>Strategy:</strong> Easiest starter setup. Use the main Bedroom closets to quickly dodge hunts, or loop safely around the living room tables.</p>
+                </div>
             </div>
+
+            <!-- 2. FENWAY DRIVE -->
+            <div id="fenway" class="map-card">
+                <h3>Fenway Drive (Small)</h3>
+                <p><strong>Fuse Box:</strong> Located inside the Garage.</p>
+                <p><strong>Strategy:</strong> Very compact layout. Check the Master Bedroom and Dining room early for Cursed Mirror spawns.</p>
+            </div>
+
+            <!-- 3. LINCOLN STREET -->
+            <div id="lincoln" class="map-card">
+                <h3>Lincoln Street (Small)</h3>
+                <p><strong>Fuse Box:</strong> Spawns either inside the Garage or straight down in the Basement.</p>
+                <p><strong>Strategy:</strong> Clear your paths early. Use custom game modes here to safely scout line-of-sight loops without hunts active.</p>
+            </div>
+
+            <!-- 4. THE BODEGA -->
+            <div id="bodega" class="map-card">
+                <h3>The Bodega (Small)</h3>
+                <p><strong>Fuse Box:</strong> Found inside the downstairs Washroom or the first room upstairs.</p>
+                <p><strong>Strategy:</strong> Tight space alerts! Avoid sticking to thin shelf corridors where breaking line-of-sight is hard. Use the Cold Storage room for loops.</p>
+            </div>
+
+            <!-- 5. LILIM LANE -->
+            <div id="lilim" class="map-card">
+                <h3>Lilim Lane (Medium)</h3>
+                <p><strong>Fuse Box:</strong> Located outside in the laundry shed structure.</p>
+                <p><strong>Strategy:</strong> Watch your sanity values. The outside areas give extra running paths, but moving back inside can bottleneck your team easily.</p>
+            </div>
+
+            <!-- 6. THE CAFÉ -->
+            <div id="cafe" class="map-card">
+                <h3>The Café (Medium)</h3>
+                <p><strong>Fuse Box:</strong> Spawns inside the Kitchen room or back in the Alleyway.</p>
+                <p><strong>Strategy:</strong> Use the counter spaces to block ghost pathfinding lines. Watch your exit pathways if utilizing the Alley layout.</p>
+            </div>
+
+            <!-- 7. BRIDGEWOOD DRIVE -->
+            <div id="bridgewood" class="map-card">
+                <h3>Bridgewood Drive (Medium)</h3>
+                <p><strong>Fuse Box:</strong> Both spawns are downstairs—either in the Storage Room or directly in the Garage.</p>
+                <p><strong>Strategy:</strong> Great structural balance. Ensure you check the perimeter paths early to secure an escape route into the open yard.</p>
+            </div>
+
+            <!-- 8. OAK BRIDGE -->
+            <div id="oakbridge" class="map-card">
+                <h3>Oak Bridge (Medium)</h3>
+                <p><strong>Fuse Box:</strong> Spawns at the far end of the interior hallway, or out on the exterior building corner.</p>
+                <p><strong>Strategy:</strong> Spreads across multiple segmented house layouts. Coordinate with tools like the Spirit Box to rapidly narrow down the correct ghost zone.</p>
+            </div>
+
+            <!-- 9. THE SCHOOL -->
+            <div id="school" class="map-card">
+                <h3>The School (Large)</h3>
+                <p><strong>Strategy:</strong> High item spread. Keeps light placements limited. Use custom hallway loops to outrun active hunting threats.</p>
+            </div>
+
+            <!-- 10. THE ASYLUM -->
+            <div id="asylum" class="map-card">
+                <h3>The Asylum (Large)</h3>
+                <p><strong>Strategy:</strong> Massive structure layout. Never explore deep corridors completely alone without having active sanity pills tracking your meters.</p>
+            </div>
+
+            <!-- 11. THE PRISON -->
+            <div id="prison" class="map-card">
+                <h3>The Prison (Large)</h3>
+                <p><strong>Strategy:</strong> Multi-floor risk zone. Leverage cell block corridor structural paths to loop standard speed ghosts. Look out for Music Boxes in the Library or Cell 2.</p>
+            </div>
+
         </div>
         <script>
-        function showMap(mapName) {
-            // Hide both boxes first
-            document.getElementById('juniper').style.display = 'none';
-            document.getElementById('bodega').style.display = 'none';
-            
-            // Show only the one that was clicked
-            document.getElementById(mapName).style.display = 'block';
-        }
+            function openMap(mapId) {
+                var cards = document.getElementsByClassName("map-card");
+                for (var i = 0; i < cards.length; i++) {
+                    cards[i].style.display = "none";
+                }
+                document.getElementById(mapId).style.display = "block";
+                document.getElementById("default-msg").style.display = "none";
+            }
         </script><br>
+
 
         <div class="footer">
           <div class="biter">
