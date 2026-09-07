@@ -122,7 +122,10 @@
         </div>
         <script>
             function openMap(mapId) {
-                
+                var cards = document.getElementsByClassName("map-card");
+                for (var i = 0; i < cards.length; i++) {
+                    cards[i].style.display = "none";
+                }
                 document.getElementById(mapId).style.display = "block";
                 document.getElementById("default-msg").style.display = "none";
             }
