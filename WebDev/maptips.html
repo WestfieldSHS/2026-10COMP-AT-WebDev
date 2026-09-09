@@ -14,7 +14,6 @@
         <h3>Map Tips</h3>
         
             <div class="button-grid">
-            <button class="map-btn" onclick="openMap('default-msg')">Default</button>
             <button class="map-btn" onclick="openMap('juniper')">Juniper Road</button>
             <button class="map-btn" onclick="openMap('fenway')">Fenway Drive</button>
             <button class="map-btn" onclick="openMap('lincoln')">Lincoln Street</button>
@@ -35,87 +34,90 @@
             </div>
 
                 <!-- 1. JUNIPER ROAD -->
-            <div id="juniper" class="map-card column3 spacing">
-                <div><img class='mapimgs'src="images/JuniperRoad.jpg" alt="JuniperRoad"></div><br>
+            <div id="juniper" class="map-card column3 spacing text" style="display: none;">
+                <div><img class='mapimgs'src="images/JuniperRoad.jpg" alt="JuniperRoad"></div>
                 <h3>Juniper Road (Small)</h3>
                 <p><strong>Fuse Box:</strong> Always inside the Kitchen Pantry.</p>
                 <p><strong>Strategy:</strong> Easiest starter setup. Use the main Bedroom closets to quickly dodge hunts, or loop safely around the living room tables.</p>
             </div>
 
                 <!-- 2. FENWAY DRIVE -->
-            <div id="fenway" class="map-card column3 spacing">
-                <div><img class='mapimgs'src="images/FenwayDrive.jpg" alt="FenwayDrive"></div><br>
+            <div id="fenway" class="map-card column3 spacing text" style="display: none;">
+                <div><img class='mapimgs'src="images/FenwayDrive.jpg" alt="FenwayDrive"></div>
                 <h3>Fenway Drive (Small)</h3>
                 <p><strong>Fuse Box:</strong> Located inside the Garage.</p>
                 <p><strong>Strategy:</strong> Very compact layout. Check the Master Bedroom and Dining room early for Cursed Mirror spawns.</p>
             </div>
 
                 <!-- 3. LINCOLN STREET -->
-            <div id="lincoln" class="map-card column3 spacing">
-                <div><img class='mapimgs'src="images/LincolnStreet.jpg" alt="LincolnStreet"></div><br>
+            <div id="lincoln" class="map-card column3 spacing text" style="display: none;">
+                <div><img class='mapimgs'src="images/LincolnStreet.jpg" alt="LincolnStreet"></div>
                 <h3>Lincoln Street (Small)</h3>
                 <p><strong>Fuse Box:</strong> Spawns either inside the Garage or straight down in the Basement.</p>
                 <p><strong>Strategy:</strong> Clear your paths early. Use custom game modes here to safely scout line-of-sight loops without hunts active.</p>
             </div>
 
                 <!-- 4. THE BODEGA -->
-            <div id="bodega" class="map-card column3 spacing">
-                <div><img class='mapimgs'src="images/Bodega.jpg" alt="Bodega"></div><br>
+            <div id="bodega" class="map-card column3 spacing text" style="display: none;">
+                <div><img class='mapimgs'src="images/Bodega.jpg" alt="Bodega"></div>
                 <h3>The Bodega (Small)</h3>
                 <p><strong>Fuse Box:</strong> Found inside the downstairs Washroom or the first room upstairs.</p>
                 <p><strong>Strategy:</strong> Tight space alerts! Avoid sticking to thin shelf corridors where breaking line-of-sight is hard. Use the Cold Storage room for loops.</p>
             </div>
 
                 <!-- 5. LILIM LANE -->
-            <div id="lilim" class="map-card column3 spacing">
-                <div><img class='mapimgs'src="images/LilimLane.jpg" alt="LilimLane"></div><br>
+            <div id="lilim" class="map-card column3 spacing text" style="display: none;">
+                <div><img class='mapimgs'src="images/LilimLane.jpg" alt="LilimLane"></div>
                 <h3>Lilim Lane (Medium)</h3>
                 <p><strong>Fuse Box:</strong> Located outside in the laundry shed structure.</p>
                 <p><strong>Strategy:</strong> Watch your sanity values. The outside areas give extra running paths, but moving back inside can bottleneck your team easily.</p>
             </div>
 
                 <!-- 6. THE CAFÉ -->
-            <div id="cafe" class="map-card column3 spacing">
-                <div><img class='mapimgs'src="images/Cafe.jpg" alt="Cafe"></div><br>
+            <div id="cafe" class="map-card column3 spacing text" style="display: none;">
+                <div><img class='mapimgs'src="images/Cafe.jpg" alt="Cafe"></div>
                 <h3>The Café (Medium)</h3>
                 <p><strong>Fuse Box:</strong> Spawns inside the Kitchen room or back in the Alleyway.</p>
                 <p><strong>Strategy:</strong> Use the counter spaces to block ghost pathfinding lines. Watch your exit pathways if utilizing the Alley layout.</p>
             </div>
 
                 <!-- 7. BRIDGEWOOD DRIVE -->
-            <div id="bridgewood" class="map-card column3 spacing">
-                <div><img class='mapimgs'src="images/BridgewoodDrive.jpg" alt="BridgewoodDrive"></div><br>
+            <div id="bridgewood" class="map-card column3 spacing text" style="display: none;">
+                <div><img class='mapimgs'src="images/BridgewoodDrive.jpg" alt="BridgewoodDrive"></div>
                 <h3>Bridgewood Drive (Medium)</h3>
                 <p><strong>Fuse Box:</strong> Both spawns are downstairs—either in the Storage Room or directly in the Garage.</p>
                 <p><strong>Strategy:</strong> Great structural balance. Ensure you check the perimeter paths early to secure an escape route into the open yard.</p>
             </div>
 
                 <!-- 8. OAK BRIDGE -->
-            <div id="oakbridge" class="map-card column3 spacing">
-                <div><img class='mapimgs'src="images/OakbridgeEstates.jpg" alt="OakbridgeEstates"></div><br>
+            <div id="oakbridge" class="map-card column3 spacing text" style="display: none;">
+                <div><img class='mapimgs'src="images/OakbridgeEstates.jpg" alt="OakbridgeEstates"></div>
                 <h3>Oak Bridge (Medium)</h3>
                 <p><strong>Fuse Box:</strong> Spawns at the far end of the interior hallway, or out on the exterior building corner.</p>
                 <p><strong>Strategy:</strong> Spreads across multiple segmented house layouts. Coordinate with tools like the Spirit Box to rapidly narrow down the correct ghost zone.</p>
             </div>
 
                 <!-- 9. THE SCHOOL -->
-            <div id="school" class="map-card column3 spacing">
-                <div><img class='mapimgs'src="images/School.jpg" alt="School"></div><br>
+            <div id="school" class="map-card column3 spacing text" style="display: none;">
+                <div><img class='mapimgs'src="images/School.jpg" alt="School"></div>
                 <h3>The School (Large)</h3>
+                <p><strong>Fuse Box:</strong> Spawns at the far end of the upper-floor hallway, or out on the exterior building corner.</p>
                 <p><strong>Strategy:</strong> High item spread. Keeps light placements limited. Use custom hallway loops to outrun active hunting threats.</p>
             </div>
 
                 <!-- 10. THE ASYLUM -->
-            <div id="asylum" class="map-card column3 spacing">
-                <div><img class='mapimgs'src="images/Asylum.jpg" alt="Asylum"></div><br>
+            <div id="asylum" class="map-card column3 spacing text" style="display: none;">
+                <div><img class='mapimgs'src="images/Asylum.jpg" alt="Asylum"></div>
                 <h3>The Asylum (Large)</h3>
+                <p><strong>Fuse Box:</strong> Spawns at the far end of the map, or out on the exterior building corner.</p>
                 <p><strong>Strategy:</strong> Massive structure layout. Never explore deep corridors completely alone without having active sanity pills tracking your meters.</p>
             </div>
 
                 <!-- 11. THE PRISON -->
-            <div id="prison" class="map-card column3 spacing">
-                <div><img class='mapimgs'src="images/Prison.jpg" alt="Prison"></div><br>
+            <div id="prison" class="map-card column3 spacing text" style="display: none;">
+                <div><img class='mapimgs'src="images/Prison.jpg" alt="Prison"></div>
                 <h3>The Prison (Large)</h3>
+                <p><strong>Fuse Box:</strong> Spawns at the upper-floor rooms, or out on the exterior building court.</p>
                 <p><strong>Strategy:</strong> Multi-floor risk zone. Leverage cell block corridor structural paths to loop standard speed ghosts. Look out for Music Boxes in the Library or Cell 2.</p>
             </div>
 
